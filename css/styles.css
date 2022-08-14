@@ -138,18 +138,24 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
 }
 .adress-list .city {
   color: var(--white);
+  text-decoration: none;
 }
+
 .adress-list .mail,
 .adress-list .tel {
   color: var(--footer-mail-number);
   text-decoration: none;
 }
-.adress-list:hover {
+.adress-list .city:hover,
+.adress-list .mail:hover,
+.adress-list .tel:hover {
   color: var(--blue);
 }
+
 .filters .item {
   color: var(--main-color);
   font-weight: 500;
