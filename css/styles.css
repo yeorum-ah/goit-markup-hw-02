@@ -147,6 +147,9 @@ body {
   color: var(--footer-mail-number);
   text-decoration: none;
 }
+.adress-list:hover {
+  color: var(--blue);
+}
 .filters .item {
   color: var(--main-color);
   font-weight: 500;
@@ -159,6 +162,7 @@ body {
   color: var(--white);
   background-color: var(--blue);
 }
+
 .serv-list .service {
   color: var(--main-color);
   font-weight: 700;
@@ -176,6 +180,7 @@ body {
 .serv-list .item {
   text-decoration: none;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
