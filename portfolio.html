@@ -19,37 +19,40 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#" class="logo">
-          <span class="logo-blue">Web</span>
-          <span class="logo-black">Studio</span>
-        </a>
-        <ul class="site-nav">
+      <div class="container top">
+        <nav class="nav-container">
+          <a href="#" class="logo">
+            <span class="logo-blue">Web</span>
+            <span class="logo-black">Studio</span>
+          </a>
+          <ul class="site-nav">
+            <li class="pages">
+              <a href="./index.html" class="link">Студія</a>
+            </li>
+            <li class="pages">
+              <a href="./portfolio.html" class="link current">Портфоліо</a>
+            </li>
+            <li class="pages">
+              <a href="#" class="link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts">
           <li>
-            <a href="./index.html" class="link">Студія</a>
+            <a href="mailto:info@devstudio.com" class="mail"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="./portfolio.html" class="link current">Портфоліо</a>
-          </li>
-          <li>
-            <a href="#" class="link">Контакти</a>
+            <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="contacts">
-        <li>
-          <a href="mailto:info@devstudio.com" class="mail"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <h1 class="visually-hidden"></h1>
-      <section>
+      <h1 class="visually-hidden">Портфоліо</h1>
+      <section class="portfolio">
+        <div class="container">
         <ul class="filters">
           <li class="position">
             <button type="button" class="item">Усі</button>
@@ -67,8 +70,8 @@
             <button type="button" class="item">Маркетинг</button>
           </li>
         </ul>
-        <ul class="serv-list">
-          <li>
+                <ul class="serv-list">
+          <li class="service-card">
             <a href="#" class="item">
               <img
                 src="./images/portfolio/img1.jpg"
@@ -76,8 +79,10 @@
                 width="370"
                 height="294"
               />
+              <div class="title">
               <h2 class="service">Технохряк</h2>
               <p class="descrip">Веб-сайт</p>
+              </div>
             </a>
           </li>
           <li>
@@ -88,11 +93,13 @@
                 width="370"
                 height="294"
               />
+              <div class="title">
               <h2 class="service">Постер New Orlean vs Golden Star</h2>
-              <p class="descrip">Дизайн</p></a
+              <p class="descrip">Дизайн</p>
+              </div></a
             >
           </li>
-          <li>
+          <li class="service-card">
             <a href="#" class="item">
               <img
                 src="./images/portfolio/img3.jpg"
@@ -100,10 +107,12 @@
                 width="370"
                 height="294"
               />
+              <div class="title">
               <h2 class="service">Ресторан Seafood</h2>
               <p class="descrip">Додаток</p>
+              </div>
             </a>
-          </li>
+          </li class="service-card">
           <li>
             <a href="#" class="item">
               <img
@@ -112,11 +121,13 @@
                 width="370"
                 height="294"
               />
+              <div class="title">
               <h2 class="service">Проєкт Prime</h2>
               <p class="descrip">Маркетинг</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="service-card">
             <a href="#" class="item">
               <img
                 src="./images/portfolio/img5.jpg"
@@ -124,11 +135,13 @@
                 width="370"
                 height="294"
               />
+              <div class="title">
               <h2 class="service">Проект Boxes</h2>
               <p class="descrip">Додаток</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="service-card">
             <a href="#" class="item">
               <img
                 src="./images/portfolio/img6.jpg"
@@ -136,11 +149,13 @@
                 width="320"
                 height="294"
               />
+              <div class="title">
               <h2 class="service">Inspiration has no Borders</h2>
               <p class="descrip">Веб-сайт</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="service-card">
             <a href="#" class="item">
               <img
                 src="./images/portfolio/img7.jpg"
@@ -148,11 +163,13 @@
                 width="370"
                 height="294"
               />
+              <div class="title">
               <h2 class="service">Видання Limited Edition</h2>
               <p class="descrip">Дизайн</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="service-card">
             <a href="#" class="item">
               <img
                 src="./images/portfolio/img8.jpg"
@@ -160,11 +177,13 @@
                 width="370"
                 height="294"
               />
+              <div class="title">
               <h2 class="service">Проєкт LAB</h2>
               <p class="descrip">Маркетинг</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="service-card">
             <a href="#" class="item">
               <img
                 src="./images/portfolio/img9.jpg"
@@ -172,14 +191,18 @@
                 width="370"
                 height="294"
               />
+              <div class="title">
               <h2 class="service">Growing Business</h2>
               <p class="descrip">Додаток</p>
+              </div>
             </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container">
       <a href="#" class="logo">
         <span class="logo-blue">Web</span>
         <span class="logo-white">Studio</span>
@@ -188,7 +211,7 @@
         <ul>
           <li>
             <a
-              class="city"
+              
               class="city"
               href="https://goo.gl/maps/ANjriqCPYeHtvhQw9"
               target="_blank"
@@ -196,14 +219,15 @@
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li>
+          <li class="mail-footer">
             <a href="mailto:info@example.com" class="mail">info@example.com</a>
           </li>
-          <li>
+          <li class="tel-footer">
             <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
